@@ -1,0 +1,31 @@
+body {
+  background-color: #FFEBE7;
+}
+
+h1 {
+  color:#182825;
+  text-align: center;
+}
+
+p {
+  color:#016FB9;
+  text-align:center;
+}
+
+img {
+  border-color: #6D8EA0;
+  border-style:solid;
+  width:20vw;
+  height:20vw;
+  border-radius: 15%;
+}
+
+.gridBox {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  row-gap: 2.5vw;
+  margin-left:3vw;
+  margin-right:2vw;
+
+}
